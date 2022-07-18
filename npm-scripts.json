@@ -1,0 +1,5 @@
+scripts: {
+  "test": "jest",
+  "dev:server": "tsnd --files --respawn src/server/server.tsx --ignore-watch node_modules,dist",
+  "dev:bundler": "webpack -w --mode=development"
+}
